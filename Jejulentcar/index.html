@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-size: 0.75em;
+      }
+      #menu_bar {
+        width: 1000px;
+        margin: 0 auto;
+        border: 1px solid black;
+        height: 35px;
+        background-color: #f1f3f5;
+      }
+      #menu_bar_left {
+        float: left;
+      }
+      #menu_bar_right {
+        float: right;
+      }
+      #menu_bar ul li {
+        float: left;
+        position: relative;
+        list-style: none;
+      }
+      #menu_bar_right li a {
+        position: relative;
+        float: left;
+      }
+      #menu_bar ul li a {
+        margin-right: 15px;
+        padding-left: 10px;
+        border-left: 1px solid gray;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      a:active {
+        color: black;
+      }
+      nav {
+        padding: 0;
+        width: 1000px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 42px;
+        line-height: 42px;
+        background-color: green;
+        color: white;
+        font-weight: 3em;
+      }
+      #nav_list1 {
+        width: 70%;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+      }
+      #nav_list2 {
+        width: 40%;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      section {
+        width: 1000px;
+        height: 300px;
+        border: 1px solid black;
+        margin-top: 20px;
+      }
+      #new_sale_name {
+        color: #2fac23;
+      }
+      #new_sale_name_sub {
+        font-size: 0.4em;
+        color: gray;
+        border-left: 1px solid gray;
+        padding-left: 10px;
+      }
+      .car_info_wrap {
+        width: 1000px;
+        background: #f3f5ee;
+        padding: 25px 0 25px 25px;
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+    <title>제주 렌트카</title>
+  </head>
+  <body>
+    <div id="menu_bar">
+      <ul id="menu_bar_left">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">즐겨찾기</a></li>
+      </ul>
+      <ul id="menu_bar_right">
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">마이페이지</a></li>
+        <li><a href="#">예약조회</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">예약상담</a></li>
+        <li><a href="#">이용후기</a></li>
+        <li><a style="color: red" href="#">개인결제</a></li>
+      </ul>
+    </div>
+    <header>
+      <div
+        style="
+          float: left;
+          display: inline;
+          height: 36px;
+          padding: 50px 80px 0 0;
+        "
+      >
+        <img
+          src="http://jejurentacar.com/theme/nongsan/skin/shop/rent/images/call_center.jpg"
+          alt="고객센터 : 064-747-6606"
+        />
+      </div>
+      <div style="float: left; display: inline; height: 80px">
+        <a href="http://jejurentacar.com/shop/"
+          ><img
+            src="http://jejurentacar.com/data/common/logo_img"
+            alt="제주렌트카A닷컴"
+        /></a>
+      </div>
+      <div
+        style="float: right; display: inline; height: 36px; padding: 50px 0 0 0"
+      >
+        <img
+          src="http://jejurentacar.com/theme/nongsan/skin/shop/rent/images/yellowid.png"
+        />
+      </div>
+    </header>
+    <nav>
+      <ul id="nav_list1">
+        <li style="color: yellow">★ 전체차량 리스트 ☆</li>
+        <li>경.소형차량</li>
+        <li>중형차량</li>
+        <li>고급차량</li>
+        <li>SUV / RV</li>
+        <li>승합차량</li>
+        <li>외제차량</li>
+      </ul>
+      <ul id="nav_list2">
+        <li>기사전용차량</li>
+        <li>실시간항공권</li>
+        <li>관광지할인쿠폰</li>
+      </ul>
+    </nav>
+    <section>
+      <div></div>
+    </section>
+    <h2>
+      <span id="new_sale_name">최신형 할인</span>
+      렌트카
+      <span id="new_sale_name_sub"
+        >고객님을 위해 추천해드리는 신규 할인 렌트카</span
+      >
+    </h2>
+    <div class="car_info_wrap">
+      <div>
+        <div></div>
+        <p>신형 더뉴레이 2021년형(O)</p>
+        <p>120,000원</p>
+        <p>48,000원</p>
+      </div>
+      <div>
+        <div></div>
+        <p>케스파 4인승 2022년형(O)</p>
+        <p>135,000원</p>
+        <p>54,000원</p>
+      </div>
+      <div>
+        <div></div>
+        <p>3세대K5 2019년~2021년형(O)</p>
+        <p>120,000원</p>
+        <p>48,000원</p>
+      </div>
+      <div>
+        <div></div>
+        <p>신형 올뉴제네시스G80 2021년형(O)</p>
+        <p>370,000원</p>
+        <p>148,000원</p>
+      </div>
+    </div>
+    <article>
+      <div>
+        <div>
+          <h2>예약상담</h2>
+          <ul>
+            <li><a>안녕하세요.</a><span>06:44</span></li>
+            <li><a>대놓고 저격한 홈플러스의 만행 ㅋ</a><span>08-04</span></li>
+            <li><a>예약이 확정된건가요?</a><span>04-07</span></li>
+            <li><a>Re: 예약이 확정된건가요?</a><span>04-09</span></li>
+            <li><a>안녕하세요.</a><span>08-29</span></li>
+          </ul>
+        </div>
+        <div><a>+</a></div>
+      </div>
+      <div>
+        <div>
+          <h2>공지사항</h2>
+          <ul>
+            <li><a>캐스퍼 4인승 2022년형 신규차</a><span>12-21</span></li>
+            <li><a>제주관광공사 중문면세점 할인쿠폰</a><span>12-21</span></li>
+            <li>
+              <a>2021년도 여름 성수기[제주도 할인 쿠폰]</a><span>06-07</span>
+            </li>
+            <li>
+              <a>여름 성수기 제주도 렌터카 예약 오픈안내</a><span>06-03</span>
+            </li>
+            <li><a>신용카드 이용내역 조회</a><span>04-02</span></li>
+          </ul>
+        </div>
+        <div><a>+</a></div>
+      </div>
+      <div>이미지</div>
+    </article>
+    <footer>
+      <div>
+        <ul>
+          <li><a>회사소개</a></li>
+          <li><a>전자상거래표준약관</a></li>
+          <li><a>개인정보 취급방침</a></li>
+          <li><a>국내여행표준약관</a></li>
+          <li>
+            <select>
+              ::::제휴사이트 링크::::
+            </select>
+          </li>
+        </ul>
+        <p>
+          <span><b>회사명</b> 제주렌트카 (상호명:제주허브닷컴)</span>
+          <span><b>주소</b> 제주특별자치도 제주시 평전길13 (1층, 삼도1동)</span
+          ><br />
+          <span><b>사업자 등록번호</b> 616-27-75958</span>
+          <span><b>대표</b> 조영민</span>
+          <span><b>전화</b> 064-747-6606</span>
+          <span><b>팩스</b> 064-803-0843</span><br />
+          <span><b>통신판매업신고번호</b> 제2020-삼도1동-0032호</span>
+          <span><b>개인정보관리책임자</b> 조영민</span>
+
+          <span><b>부가통신사업신고번호</b> 제2011-46호</span><br />
+          <span class="copy"
+            >Copyright &copy; 2016-2020 제주렌트카 (상호명:제주허브닷컴). All
+            Rights Reserved.</span
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
