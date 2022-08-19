@@ -1,0 +1,158 @@
+body {
+  font-size: 0.75em;
+  margin: auto;
+}
+header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 100px;
+}
+
+#menu_bar {
+  width: 1420px;
+  margin: 0 auto;
+
+  height: 35px;
+  background-color: #f1f3f5;
+}
+#menu_bar_left {
+  float: left;
+  margin-left: 150px;
+}
+#menu_bar_right {
+  float: right;
+  margin-right: 120px;
+}
+#menu_bar ul li {
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu_bar_right li a {
+  position: relative;
+  float: left;
+}
+#menu_bar ul li a {
+  margin-right: 15px;
+  padding-left: 10px;
+  border-left: 1px solid gray;
+  font-size: 0.9em;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:active {
+  color: black;
+}
+nav {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 42px;
+  line-height: 42px;
+  background-color: green;
+  color: white;
+  font-weight: 3em;
+  font-size: 1.3em;
+}
+#nav_list1 {
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+}
+#nav_list2 {
+  width: 30%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+nav ul li {
+  margin-right: 20px;
+}
+#center_info {
+  width: 30%;
+  height: 50px;
+  margin-top: 50px;
+}
+#magin_logo {
+  width: 30%;
+  margin-left: 50px;
+}
+#kakao_info {
+  margin-left: 120px;
+  height: 30px;
+  margin-top: 50px;
+}
+#login_frm {
+  margin: auto;
+}
+section {
+  width: 75%;
+  margin: auto;
+}
+section h2 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.tb {
+  border-top: 2px solid black;
+  width: 100%;
+}
+th {
+  padding: 7px 13px;
+  border: 1px solid #e9e9e9;
+  border-left: 0;
+  background: #f7f7f7;
+  text-align: left;
+}
+td {
+  width: 90%;
+  padding-left: 20px;
+  border: 1px solid #e9e9e9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+tr {
+  border-bottom: 1px solid black;
+}
+input {
+  background-color: #f7f7f7;
+  border: 1px solid #e9e9e9;
+}
+.btn {
+  height: 40px;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+}
+#btn_submit {
+  width: 120px;
+  padding: 13px 0;
+  font-size: 1.09em;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 0;
+  background-color: #86bf62;
+  border: 1px solid #86bf62;
+}
+#btn_cancel {
+  display: inline-block;
+  width: 120px;
+  padding: 13px 0;
+  border: 1px solid #86bf62;
+  background: #fff;
+  color: #86bf62;
+  text-decoration: none;
+  vertical-align: middle;
+}

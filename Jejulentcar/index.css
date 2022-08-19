@@ -1,0 +1,268 @@
+body {
+  font-size: 0.75em;
+  margin: auto;
+}
+header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 100px;
+}
+
+#menu_bar {
+  width: 1420px;
+  margin: 0 auto;
+
+  height: 35px;
+  background-color: #f1f3f5;
+}
+#menu_bar_left {
+  float: left;
+  margin-left: 150px;
+}
+#menu_bar_right {
+  float: right;
+  margin-right: 120px;
+}
+#menu_bar ul li {
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu_bar_right li a {
+  position: relative;
+  float: left;
+}
+#menu_bar ul li a {
+  margin-right: 15px;
+  padding-left: 10px;
+  border-left: 1px solid gray;
+  font-size: 0.9em;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:active {
+  color: black;
+}
+nav {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 42px;
+  line-height: 42px;
+  background-color: green;
+  color: white;
+  font-weight: 3em;
+  font-size: 1.3em;
+}
+#nav_list1 {
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+}
+#nav_list2 {
+  width: 30%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+nav ul li {
+  margin-right: 20px;
+}
+section {
+  margin: auto;
+  width: 80%;
+  height: 300px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+#new_sale_name {
+  color: #2fac23;
+}
+#new_sale_name_sub {
+  font-size: 0.4em;
+  color: gray;
+  border-left: 1px solid gray;
+  padding-left: 10px;
+}
+.car_info_wrap {
+  width: 80%;
+  background: #f3f5ee;
+  padding: 25px 0 25px 25px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.car_info_list {
+  display: flex;
+  flex-direction: row;
+}
+.car_info_detail {
+  margin-right: 45px;
+}
+.sct_txt {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+#center_info {
+  width: 30%;
+  height: 50px;
+  margin-top: 50px;
+}
+#magin_logo {
+  width: 30%;
+  margin-left: 50px;
+}
+#kakao_info {
+  margin-left: 120px;
+  height: 30px;
+  margin-top: 50px;
+}
+h1 {
+  margin-left: 135px;
+}
+.sct_cost {
+  margin-top: 5px;
+  font-size: 1.4em;
+}
+strike {
+  font-size: 0.9em;
+  color: #999;
+}
+article {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 40px;
+  height: 230px;
+}
+#reserve_info {
+  border: 1px solid #dce3e9;
+  width: 40%;
+}
+#notice {
+  border: 1px solid #dce3e9;
+  width: 40%;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.lt_tel {
+  width: 40%;
+}
+#notice_header {
+  display: flex;
+  flex-direction: row;
+}
+#notice_title {
+  width: 80%;
+}
+#notice_title h2 {
+  margin-left: 15px;
+  font-weight: bold;
+}
+#notice_more {
+  width: 10%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 2em;
+}
+#notice_more a {
+  color: green;
+  margin-left: 30px;
+}
+#reserve_header {
+  display: flex;
+  flex-direction: row;
+}
+#reserve_title {
+  width: 80%;
+}
+#reserve_title h2 {
+  margin-left: 15px;
+}
+#reserve_more {
+  width: 10%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 2em;
+}
+#reserve_more a {
+  color: green;
+  margin-left: 30px;
+}
+#reserve_info ul {
+  font-size: 1.1em;
+}
+#reserve_info ul li {
+  margin-top: 10px;
+}
+#reserve_info ul li span {
+  float: right;
+  margin-right: 30px;
+  color: gray;
+}
+#notice ul {
+  font-size: 1.1em;
+}
+#notice ul li {
+  margin-top: 10px;
+}
+#notice ul li span {
+  float: right;
+  margin-right: 30px;
+  color: gray;
+}
+footer {
+  margin: auto;
+  border: 1px solid #dce3e9;
+  margin-top: 20px;
+  background-color: #fff;
+}
+#footer_info {
+  border-bottom: 1px solid #dce3e9;
+  width: 80%;
+  margin: auto;
+}
+#footer_info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3em;
+}
+#footer_info ul li {
+  margin: auto;
+}
+#footer_info_list {
+  width: 60%;
+  margin: auto;
+}
+#footer_ft {
+  margin: auto;
+  width: 80%;
+}
+#footer_ft p {
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1.8em;
+  border-top: 1px solid #fff;
+  color: black;
+  text-align: center;
+}
+#footer_ft p span {
+  margin-right: 30px;
+}
+.copy {
+  color: gray;
+}
